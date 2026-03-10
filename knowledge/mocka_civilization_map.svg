@@ -1,0 +1,31 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600">
+
+<rect x="400" y="50" width="200" height="80" fill="#e6f2ff" stroke="#000"/>
+<text x="500" y="95" text-anchor="middle" font-size="16">MoCKA System</text>
+
+<rect x="100" y="200" width="250" height="120" fill="#e8ffe8" stroke="#000"/>
+<text x="225" y="250" text-anchor="middle" font-size="14">Infield</text>
+<text x="225" y="275" text-anchor="middle" font-size="12">Internal reasoning</text>
+<text x="225" y="295" text-anchor="middle" font-size="12">Experiments</text>
+<text x="225" y="315" text-anchor="middle" font-size="12">Operational memory</text>
+
+<rect x="650" y="200" width="250" height="120" fill="#fff5e6" stroke="#000"/>
+<text x="775" y="250" text-anchor="middle" font-size="14">Outfield</text>
+<text x="775" y="275" text-anchor="middle" font-size="12">Public knowledge</text>
+<text x="775" y="295" text-anchor="middle" font-size="12">Collaboration interface</text>
+<text x="775" y="315" text-anchor="middle" font-size="12">External AI access</text>
+
+<line x1="500" y1="130" x2="225" y2="200" stroke="#000"/>
+<line x1="500" y1="130" x2="775" y2="200" stroke="#000"/>
+
+<rect x="650" y="370" width="250" height="150" fill="#ffffff" stroke="#000"/>
+<text x="775" y="410" text-anchor="middle" font-size="14">Outfield Structure</text>
+<text x="775" y="440" text-anchor="middle" font-size="12">ledger</text>
+<text x="775" y="460" text-anchor="middle" font-size="12">knowledge</text>
+<text x="775" y="480" text-anchor="middle" font-size="12">governance</text>
+<text x="775" y="500" text-anchor="middle" font-size="12">interfaces</text>
+<text x="775" y="520" text-anchor="middle" font-size="12">orchestra</text>
+
+<line x1="775" y1="320" x2="775" y2="370" stroke="#000"/>
+
+</svg>

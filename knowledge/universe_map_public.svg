@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<rect x="10" y="10" width="780" height="380" fill="white" stroke="black"/>
+<text x="400" y="200" text-anchor="middle" font-size="20">
+MoCKA Knowledge Universe Map
+</text>
+</svg>

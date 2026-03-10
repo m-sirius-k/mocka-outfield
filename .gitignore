@@ -1,0 +1,15 @@
+﻿# Security boundary
+
+*.pem
+*.key
+*.private
+*.secret
+
+infield
+mocka-infield
+keys
+secrets
+
+*.log
+*.tmp
+*.bak
