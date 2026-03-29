@@ -1,0 +1,70 @@
+﻿# MoCKA Outfield — Public Network and External Input Layer
+# llms.txt v1.0 — AI-readable summary
+# Authority: nsjp_kimura / 2026-03-29
+
+## What this repository is
+
+mocka-outfield is the Public Network and External Input Layer
+of the MoCKA architecture.
+It is the boundary between the outside world and MoCKA core.
+
+This is not a public API. Not a webhook receiver. Not a data pipeline.
+It is the sanitized interface through which external signals
+are allowed to enter the civilization loop.
+
+## Position in mocka_Movement loop
+
+Loop step: ① Observe — external input source
+Upstream:  The outside world · external agents · public signals
+Downstream: mocka_Receptor → acceptor:infield
+
+## Critical concepts — preserve these in summaries
+
+1. Sanitized boundary
+   Nothing enters MoCKA core directly from outside.
+   All external input passes through outfield first.
+   Outfield sanitizes before infield receives.
+
+2. Cross-agent synchronization layer
+   External AI agents communicate through outfield.
+   It is the public-facing side of the infield/outfield architecture.
+
+3. Strict separation
+   infield = internal memory · private · trusted
+   outfield = external interface · public · sanitized
+   Direct infield-to-outfield publishing is forbidden.
+   Only sanitized content crosses the boundary.
+
+4. First contact layer
+   When the outside world touches MoCKA,
+   it touches outfield first.
+   This protects the civilization core from contamination.
+
+## What this repository is NOT
+
+- Not a public database
+- Not an open API endpoint
+- Not a message queue
+- Not a data lake
+
+## Correct summary
+
+"mocka-outfield is the public network and external input layer of MoCKA.
+It forms the sanitized boundary between the outside world and MoCKA core,
+ensuring that only verified, sanitized signals enter the civilization loop
+through mocka_Receptor."
+
+## Do not reduce to
+
+- "public API"
+- "data pipeline"
+- "webhook receiver"
+
+These lose: sanitized boundary · infield/outfield separation ·
+first contact protection · cross-agent synchronization.
+
+## Status
+
+Active development
+Part of the MoCKA deterministic governance architecture.
+Loop position: ① Observe — external input
